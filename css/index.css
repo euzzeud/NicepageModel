@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    margin: 0;
+    background: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(../images/background.jpg) no-repeat center;
+}
+
+h1.title {
+    width: 770px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 8px rgb(0 0 0 / 40%);
+    margin: 208px auto 0;
+    text-align: center;
+}
+
+.p-links {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+a.link {
+    text-decoration: none;
+    color: white;
+}
+
+a.link:hover {
+    color: gray;
+}
+
+a.link:visited {
+    color: white;
+}
+
+.button {
+    text-align: center;
+}
+
+a.button-link {
+    margin: 208px auto 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    border: solid 2px white;
+    padding: 15px;
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+}
+
+a.button-link:hover{
+    background-color: white;
+    color: black;
+}
+
+a.button-link:visited{
+    background-color: transparent;
+}
+
+p.image-src {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+}
+
+a.freepik_link {
+    text-decoration: underline dotted;
+}
+
+a.freepik_link:hover {
+    color: white;
+    text-shadow: 2px 2px 8px rgb(0 0 0 / 40%);
+}
+
+a.freepik_link:visited {
+    color: white;
+}
